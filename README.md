@@ -32,7 +32,7 @@
 ## ビルド
 
 ```bash
-gfortran -O3 -fopenmp report_parallel_necc.f90 -o report_parallel_necc
+gfortran -O3 -fopenmp report_parallel.f90 -o report_parallel
 ```
 
 ※ファイル名は適宜置き換えてください。
