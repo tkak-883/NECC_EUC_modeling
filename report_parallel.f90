@@ -100,12 +100,12 @@ program main
    real(8), parameter :: pi = 4.d0*datan(1.d0)
 
    ! 風応力パラメータ
-   real(8), parameter :: tau_tr = 0.10d0   ! 貿易風振幅
-   real(8), parameter :: tau_w  = 0.06d0   ! 偏西風振幅
-   real(8), parameter :: lat_tr = 8.d0     ! 貿易風中心
+   real(8), parameter :: tau_tr = 0.18d0   ! 貿易風ピーク
+   real(8), parameter :: tau_w  = 0.15d0   ! 偏西風ピーク
+   real(8), parameter :: lat_tr = 5.d0     ! 貿易風中心
    real(8), parameter :: wid_tr = 6.d0     ! 貿易風幅
-   real(8), parameter :: lat_w  = 30.d0    ! 偏西風中心
-   real(8), parameter :: wid_w  = 6.d0     ! 偏西風幅
+   real(8), parameter :: lat_w  = 25.d0    ! 偏西風中心
+   real(8), parameter :: wid_w  = 10.d0     ! 偏西風幅
 
    real(8):: &
       er_rec, pi_rec, wid_tr_rec, wid_w_rec, &
